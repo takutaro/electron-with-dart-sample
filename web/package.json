@@ -1,0 +1,19 @@
+{
+  "name": "electron-with-dart",
+  "version": "1.0.0",
+  "description": "A minimal Electron application with Dart",
+  "author": "taku",
+  "license": "CC0-1.0",
+
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pubserve": "electron . --pubserve"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}

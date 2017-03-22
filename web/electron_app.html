@@ -1,0 +1,18 @@
+<link rel="import" href="packages/polymer_elements/paper_input.html">
+<link rel="import" href="packages/polymer_elements/paper_button.html">
+<dom-module id="electron-app">
+  <template>
+
+    <h1>Hello Electron with Dart! (+Polymer)</h1>
+
+    We are using Node.js [[process.versions.node]],
+    Chromium [[process.versions.chrome]],
+    and Electron [[process.versions.electron]].
+
+    <paper-input label="Type something..." value="{{inputvalue}}"></paper-input>
+    <paper-button raised style="margin:10px;" on-tap="cleartext">CLEAR</paper-button>
+    <br>
+    <p>typed: [[inputvalue]]</p>
+
+  </template>
+</dom-module>

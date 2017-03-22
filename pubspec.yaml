@@ -1,0 +1,12 @@
+name:
+  electron_with_dart
+dependencies:
+  polymer: ^1.0.0-rc
+  polymer_elements: ^1.0.0-rc
+  browser: ^0.10.0
+  web_components: ^0.12.5
+  js: ^0.6.1
+transformers:
+- polymer:
+    entry_points:
+      - web/index.html
